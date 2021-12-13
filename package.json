@@ -7,14 +7,13 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "layer0:deploy": "layer0 deploy",
+    "layer0:build": "layer0 build",
+    "layer0:dev": "layer0 dev",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "layer0:build": "npm run build && layer0 build",
-    "layer0:deploy": "npm run build && layer0 deploy",
-    "layer0:deploy-docs": "npm run build && layer0 deploy -t=layer0-docs"
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.9",
